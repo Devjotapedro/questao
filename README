@@ -1,0 +1,16 @@
+#windows:
+python -m venv venv
+
+shell
+.\venv\Scripts\Activate.ps1
+
+cmd
+venv\Scripts\activate.bat
+
+pip instal django
+
+linux
+python3 -m venv venv
+
+source venv/bin/activate
+

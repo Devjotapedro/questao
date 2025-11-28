@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="mb-4">Valores do Contexto</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Variável</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>valor1</td>
+            <td>{{ valor1 }}</td>
+        </tr>
+        <tr>
+            <td>valor2</td>
+            <td>{{ valor2 }}</td>
+        </tr>
+        <tr>
+            <td>valor3</td>
+            <td>{{ valor3 }}</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}
